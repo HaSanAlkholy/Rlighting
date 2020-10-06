@@ -473,6 +473,10 @@ nav {
                     outline: none;
                     box-shadow: none;
                     background-color: transparent;
+                    
+                    &:hover{
+                        color: $color2;
+                    }
                 }
             }
             @media (max-width: 1200px) {

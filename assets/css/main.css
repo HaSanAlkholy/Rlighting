@@ -702,6 +702,10 @@ nav .nav-bottom .search .search-content .search-btn {
   background-color: transparent;
 }
 
+nav .nav-bottom .search .search-content .search-btn:hover {
+  color: #f9e42c;
+}
+
 @media (max-width: 1200px) {
   nav .nav-bottom .search {
     display: none;
