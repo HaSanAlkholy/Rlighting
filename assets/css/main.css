@@ -976,6 +976,28 @@ nav .nava-active .nava-content {
   overflow-y: auto;
 }
 
+.up {
+  height: 50px;
+  width: 50px;
+  background-color: #f9e42c;
+  color: #161a1d;
+  font-size: 17px;
+  position: fixed;
+  right: 45px;
+  bottom: 125px;
+  z-index: 999;
+  border-radius: 100%;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.active-up {
+  visibility: visible;
+  opacity: 1;
+}
+
 .search-form {
   height: 0%;
   width: 0%;

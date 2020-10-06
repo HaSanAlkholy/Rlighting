@@ -194,13 +194,11 @@ $(window).on('load', function () {
 
   });
 
-
   if (window.innerWidth <= 1200) {
     setInterval(() => {
       mySwiper4.slideNext();
     }, 4000);
   }
-
 
     // sliders
 
@@ -262,6 +260,18 @@ $(window).on('load', function () {
     },
     easing: 'ease-in-out'
   });
+
+  
+  window.addEventListener("scroll", scrolled);
+
+  function scrolled() {
+    let up = document.getElementById('up');
+    if (this.scrollY > 300) {
+      up.classList.add('active-up');
+    } else {
+      up.classList.remove('active-up');
+    }
+  }
 
 
 
