@@ -922,6 +922,7 @@ nav .nava .nava-content .nava-head {
     display: flex;
     margin: 9px 0;
     font-size: 17px;
+    position: relative;
   }
   nav .nava .nava-content .nava-head a {
     color: #161a1d;
@@ -934,8 +935,9 @@ nav .nava .nava-content .nava-head {
   }
   nav .nava .nava-content .nava-head .nava-close {
     position: absolute;
-    top: 35px;
-    left: 35px;
+    top: 50%;
+    left: 7px;
+    transform: translate(-50%, -50%);
     font-size: 25px;
     cursor: pointer;
     color: #bdbdbd;
