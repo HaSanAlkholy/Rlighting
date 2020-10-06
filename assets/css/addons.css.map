@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/addons.scss"
+    ],
+    "names": [],
+    "file": "addons.css"
+}
