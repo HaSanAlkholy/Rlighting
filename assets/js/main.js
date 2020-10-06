@@ -266,7 +266,7 @@ $(window).on('load', function () {
 
   function scrolled() {
     let up = document.getElementById('up');
-    if (this.scrollY > 300) {
+    if (this.scrollY > 200) {
       up.classList.add('active-up');
     } else {
       up.classList.remove('active-up');
