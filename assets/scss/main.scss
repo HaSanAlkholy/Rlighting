@@ -408,7 +408,7 @@ nav {
             left: 50%;
             transform: translate(-50%, -50%);
 
-            span {
+            a {
                 color: $color2;
             }
         }
@@ -419,8 +419,13 @@ nav {
     }
 
     .nav-bottom {
-        padding: 20px 0;
+        padding-top: 35px;
+        padding-bottom: 20px;
         background-color: $color1;
+
+        @media(max-width:1200px){
+            padding:25px 0;
+        }
 
         .c2 {
             display: flex;
@@ -585,7 +590,7 @@ nav {
 
             @media (max-width: 1200px) {
                 display: flex;
-                margin-right: auto;
+                margin-inline-start: auto;
             }
         }
     }
@@ -595,7 +600,7 @@ nav {
     }
 
     .nava {
-        margin: 10px auto;
+        margin: 14px auto;
         transition: all 0.5s;
 
         .nava-content {
@@ -642,7 +647,7 @@ nav {
 
                 .sm-link {
                     display: none;
-                    @media (max-width: 992px) {
+                    @media (max-width: 1200px) {
                         display: block;
                     }
                 }
@@ -671,7 +676,7 @@ nav {
         }
 
         .nava-content {
-            @media (max-width: 992px) {
+            @media (max-width: 1200px) {
                 position: absolute;
                 top: 0;
                 right: -150%;
@@ -1208,7 +1213,7 @@ header {
 
 #categories {
     margin-top: 70px;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 
     @media (max-width: 576px) {
         margin-bottom: 20px;
@@ -1433,7 +1438,7 @@ header {
 
 footer {
     padding-top: 90px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     background-color: $color1;
 
     .container {
@@ -1506,11 +1511,12 @@ footer {
             margin-bottom: 10px;
             transition: all 0.5s;
             a {
-                font-size: 16px;
-                font-weight: 400;
+                font-size: 15px;
                 transition: all 0.3s;
-                color: #70777b;
+                color: #7a8186;
                 text-transform: capitalize;
+                font-family: TajawalMedium;
+
             }
             &:hover {
                 transform: translateX(-5px);
@@ -1608,7 +1614,7 @@ footer {
             padding: 14px 0;
             p {
                 margin: 0;
-                color: #545a5e;
+                color: #7a8186;
                 width: 30%;
                 font-size: 14px;
 
@@ -1678,21 +1684,6 @@ html[dir="ltr"] {
             }
         }
 
-        .nav-top {
-            ul {
-                li {
-                    margin-left: unset;
-                    margin-right: 20px;
-
-                    a {
-                        span {
-                            margin-left: unset;
-                            margin-right: 9px;
-                        }
-                    }
-                }
-            }
-        }
 
         .nav-bottom {
             .nava-active {
@@ -1733,11 +1724,8 @@ html[dir="ltr"] {
                     }
                 }
             }
+
             .nav-icons-sm {
-                @media (max-width: 992px) {
-                    margin-right: unset;
-                    margin-left: auto;
-                }
                 & > div {
                     margin-right: unset;
                     margin-left: 20px;
@@ -1747,14 +1735,14 @@ html[dir="ltr"] {
 
         .nava {
             .nava-content {
-                @media (max-width: 992px) {
+                @media (max-width: 1200px) {
                     right: unset;
                     left: -150%;
 
                     .nava-head {
                         .nava-close {
                             left: unset;
-                            right: 35px;
+                            right: 7px;
                         }
                     }
                 }

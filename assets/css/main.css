@@ -629,7 +629,7 @@ nav .nav-top .call {
   transform: translate(-50%, -50%);
 }
 
-nav .nav-top .call span {
+nav .nav-top .call a {
   color: #f9e42c;
 }
 
@@ -640,8 +640,15 @@ nav .nav-top .call span {
 }
 
 nav .nav-bottom {
-  padding: 20px 0;
+  padding-top: 35px;
+  padding-bottom: 20px;
   background-color: #161a1d;
+}
+
+@media (max-width: 1200px) {
+  nav .nav-bottom {
+    padding: 25px 0;
+  }
 }
 
 nav .nav-bottom .c2 {
@@ -809,7 +816,7 @@ nav .nav-bottom .nav-icons-sm div {
 @media (max-width: 1200px) {
   nav .nav-bottom .nav-icons-sm {
     display: flex;
-    margin-right: auto;
+    margin-inline-start: auto;
   }
 }
 
@@ -818,7 +825,7 @@ nav .nava-container {
 }
 
 nav .nava {
-  margin: 10px auto;
+  margin: 14px auto;
   transition: all 0.5s;
 }
 
@@ -867,7 +874,7 @@ nav .nava .nava-content > ul .sm-link {
   display: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   nav .nava .nava-content > ul .sm-link {
     display: block;
   }
@@ -896,7 +903,7 @@ nav .nava .nava-content .nava-head {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   nav .nava .nava-content {
     position: absolute;
     top: 0;
@@ -1471,7 +1478,7 @@ header .swiper-container .swiper-slide img {
 
 #categories {
   margin-top: 70px;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 576px) {
@@ -1722,7 +1729,7 @@ header .swiper-container .swiper-slide img {
 
 footer {
   padding-top: 90px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-color: #161a1d;
 }
 
@@ -1804,11 +1811,11 @@ footer .footer-top li {
 }
 
 footer .footer-top li a {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 15px;
   transition: all 0.3s;
-  color: #70777b;
+  color: #7a8186;
   text-transform: capitalize;
+  font-family: TajawalMedium;
 }
 
 footer .footer-top li:hover {
@@ -1912,7 +1919,7 @@ footer .credit .c2 {
 
 footer .credit .c2 p {
   margin: 0;
-  color: #545a5e;
+  color: #7a8186;
   width: 30%;
   font-size: 14px;
 }
@@ -1980,16 +1987,6 @@ html[dir="ltr"] nav .top-setting .setting-anchor::after {
   margin-left: 5px;
 }
 
-html[dir="ltr"] nav .nav-top ul li {
-  margin-left: unset;
-  margin-right: 20px;
-}
-
-html[dir="ltr"] nav .nav-top ul li a span {
-  margin-left: unset;
-  margin-right: 9px;
-}
-
 html[dir="ltr"] nav .nav-bottom .nava-active .nava-content {
   right: unset;
   left: 0;
@@ -2020,26 +2017,19 @@ html[dir="ltr"] nav .nav-bottom .nav-icons > div i {
   }
 }
 
-@media (max-width: 992px) {
-  html[dir="ltr"] nav .nav-bottom .nav-icons-sm {
-    margin-right: unset;
-    margin-left: auto;
-  }
-}
-
 html[dir="ltr"] nav .nav-bottom .nav-icons-sm > div {
   margin-right: unset;
   margin-left: 20px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   html[dir="ltr"] nav .nava .nava-content {
     right: unset;
     left: -150%;
   }
   html[dir="ltr"] nav .nava .nava-content .nava-head .nava-close {
     left: unset;
-    right: 35px;
+    right: 7px;
   }
 }
 
