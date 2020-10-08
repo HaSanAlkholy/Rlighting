@@ -216,12 +216,12 @@ html[dir="ltr"] .slide ul {
 }
 
 .pre-loader .containe {
-  width: 200px;
+  width: 230px;
   transform: rotate(-45deg);
 }
 
 .pre-loader .st0 {
-  fill: #f9e42c;
+  fill: #8F9192;
 }
 
 .pre-loader .st1 {
@@ -229,7 +229,7 @@ html[dir="ltr"] .slide ul {
 }
 
 .pre-loader .st2 {
-  fill: #ffffff;
+  fill: white;
 }
 
 .pre-loader #word {
@@ -2157,16 +2157,6 @@ html[dir="ltr"] footer .footer-top .mail .form-group input {
 @keyframes line-glow {
   10% {
     transform: scale(1.2);
-    opacity: 1;
-  }
-}
-
-@keyframes bulb-on {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
     opacity: 1;
   }
 }

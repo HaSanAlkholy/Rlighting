@@ -18,68 +18,27 @@
     }
 
     .containe {
-        width: 200px;
+        width: 230px;
         transform: rotate(-45deg);
     }
 
     .st0 {
-        fill: $color2;
-        //fill:#8F9192;
+        fill:#8F9192;
     }
 
     .st1 {
         fill: #fce22c;
-        // stroke: $color2;
-        // stroke-width: 2;
-        // stroke-miterlimit: 10;
+      
     }
 
     .st2 {
-        fill: #ffffff;
-        // opacity: 0.2;
-        // stroke: #ffe500;
-        // stroke-width: 1;
-        // stroke-miterlimit: 10;
+        fill:white;
     }
+
     #word{
         transform-origin: center;
         transform: rotate(45deg);
     }
-
-    // #one {
-    //     transform-origin: center;
-    //     animation: line-glow 1s 0.1s infinite;
-    // }
-
-    // #two {
-    //     transform-origin: center;
-    //     animation: line-glow 1s 0.2s infinite;
-    // }
-
-    // #three {
-    //     transform-origin: center;
-    //     animation: line-glow 1s 0.3s infinite;
-    // }
-
-    // #four {
-    //     transform-origin: center;
-    //     animation: line-glow 1s 0.4s infinite;
-    // }
-
-    // #five {
-    //     transform-origin: center;
-    //     animation: line-glow 1s 0.5s infinite;
-    // }
-
-    // #six {
-    //     transform-origin: center;
-    //     animation: line-glow 1s 0.6s infinite;
-    // }
-
-    // #seven {
-    //     transform-origin: center;
-    //     animation: line-glow 1s 0.7s infinite;
-    // }
 
     #ans{
         transform-origin: center;
@@ -137,10 +96,6 @@
     #an13 {
         transform-origin: center;
         animation: line-glow 1s 0.7s infinite;
-    }
-
-    #bulb-body-fill {
-        // animation: bulb-on 2s ease infinite both;
     }
 }
 
@@ -1915,16 +1870,6 @@ html[dir="ltr"] {
     10% {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
-        opacity: 1;
-    }
-}
-
-@keyframes bulb-on {
-    0%,
-    100% {
-        opacity: 0;
-    }
-    50% {
         opacity: 1;
     }
 }
