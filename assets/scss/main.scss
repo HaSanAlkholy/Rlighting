@@ -19,58 +19,122 @@
 
     .containe {
         width: 200px;
+        transform: rotate(-45deg);
     }
 
     .st0 {
         fill: $color2;
+        //fill:#8F9192;
     }
 
     .st1 {
-        fill: none;
-        stroke: $color2;
-        stroke-width: 2;
-        stroke-miterlimit: 10;
+        fill: #fce22c;
+        // stroke: $color2;
+        // stroke-width: 2;
+        // stroke-miterlimit: 10;
     }
 
     .st2 {
-        fill: none;
-        opacity: 0.2;
-        stroke: #ffe500;
-        stroke-width: 1;
-        stroke-miterlimit: 10;
+        fill: #ffffff;
+        // opacity: 0.2;
+        // stroke: #ffe500;
+        // stroke-width: 1;
+        // stroke-miterlimit: 10;
+    }
+    #word{
+        transform-origin: center;
+        transform: rotate(45deg);
     }
 
-    #one {
+    // #one {
+    //     transform-origin: center;
+    //     animation: line-glow 1s 0.1s infinite;
+    // }
+
+    // #two {
+    //     transform-origin: center;
+    //     animation: line-glow 1s 0.2s infinite;
+    // }
+
+    // #three {
+    //     transform-origin: center;
+    //     animation: line-glow 1s 0.3s infinite;
+    // }
+
+    // #four {
+    //     transform-origin: center;
+    //     animation: line-glow 1s 0.4s infinite;
+    // }
+
+    // #five {
+    //     transform-origin: center;
+    //     animation: line-glow 1s 0.5s infinite;
+    // }
+
+    // #six {
+    //     transform-origin: center;
+    //     animation: line-glow 1s 0.6s infinite;
+    // }
+
+    // #seven {
+    //     transform-origin: center;
+    //     animation: line-glow 1s 0.7s infinite;
+    // }
+
+    #ans{
+        transform-origin: center;
+        transform: rotate(6deg);
+    }
+
+    #an1 {
         transform-origin: center;
         animation: line-glow 1s 0.1s infinite;
     }
-
-    #two {
+    #an2 {
+        transform-origin: center;
+        animation: line-glow 1s 0.15s infinite;
+    }
+    #an3 {
         transform-origin: center;
         animation: line-glow 1s 0.2s infinite;
     }
-
-    #three {
+    #an4 {
+        transform-origin: center;
+        animation: line-glow 1s 0.25s infinite;
+    }
+    #an5 {
         transform-origin: center;
         animation: line-glow 1s 0.3s infinite;
     }
-
-    #four {
+    #an6 {
+        transform-origin: center;
+        animation: line-glow 1s 0.35s infinite;
+    }
+    #an7 {
         transform-origin: center;
         animation: line-glow 1s 0.4s infinite;
     }
-
-    #five {
+    #an8 {
+        transform-origin: center;
+        animation: line-glow 1s 0.45s infinite;
+    }
+    #an9 {
         transform-origin: center;
         animation: line-glow 1s 0.5s infinite;
     }
-
-    #six {
+    #an10 {
+        transform-origin: center;
+        animation: line-glow 1s 0.55s infinite;
+    }
+    #an11 {
         transform-origin: center;
         animation: line-glow 1s 0.6s infinite;
     }
-
-    #seven {
+    #an12 {
+        transform-origin: center;
+        animation: line-glow 1s 0.65s infinite;
+    }
+    #an13 {
         transform-origin: center;
         animation: line-glow 1s 0.7s infinite;
     }
@@ -423,8 +487,8 @@ nav {
         padding-bottom: 20px;
         background-color: $color1;
 
-        @media(max-width:1200px){
-            padding:25px 0;
+        @media (max-width: 1200px) {
+            padding: 25px 0;
         }
 
         .c2 {
@@ -478,8 +542,8 @@ nav {
                     outline: none;
                     box-shadow: none;
                     background-color: transparent;
-                    
-                    &:hover{
+
+                    &:hover {
                         color: $color2;
                     }
                 }
@@ -769,15 +833,15 @@ nav {
     }
 }
 
-.up{
-    height:50px;
-    width:50px;
-    background-color:$color2;
-    color:$color1;
-    font-size:17px;
+.up {
+    height: 50px;
+    width: 50px;
+    background-color: $color2;
+    color: $color1;
+    font-size: 17px;
     position: fixed;
-    right:45px;
-    bottom:125px;
+    right: 45px;
+    bottom: 125px;
     z-index: 999;
     border-radius: 100%;
     cursor: pointer;
@@ -786,7 +850,7 @@ nav {
     transition: all 0.5s;
 }
 
-.active-up{
+.active-up {
     visibility: visible;
     opacity: 1;
 }
@@ -1516,7 +1580,6 @@ footer {
                 color: #7a8186;
                 text-transform: capitalize;
                 font-family: TajawalMedium;
-
             }
             &:hover {
                 transform: translateX(-5px);
@@ -1683,7 +1746,6 @@ html[dir="ltr"] {
                 }
             }
         }
-
 
         .nav-bottom {
             .nava-active {
